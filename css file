@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (min-width:320px) and (max-width:479px)
+ { 
+    .fnln:first-child
+    {
+      position: relative;
+      flex-direction: column;
+      justify-content:flex-start;
+      line-break:auto;
+      align-items: stretch;
+      
+    }
+    .fnln:last-child
+    { 
+      position: relative;
+      flex-direction: column;
+      justify-content:flex-start;
+      align-items: stretch;
+      gap:10px;
+      line-break:auto;
+      
+    }
+  }
